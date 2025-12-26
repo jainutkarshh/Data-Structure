@@ -8,6 +8,7 @@ public class maxprofit {
         if (prices == null || prices.length < 2) {
             return 0; // Not enough data to make a profit
         }
+        
 
         int minPrice = prices[0];
         int maxProfit = 0;
