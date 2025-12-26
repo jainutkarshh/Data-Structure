@@ -20,6 +20,7 @@ public static void main(String[] args) {
         System.out.println("Rotated List: " + l);
     }
 }
+
     static LinkedList<Integer> rotateLL(LinkedList<Integer> list, int k){
         for(int i=0;i<k;i++){
             list.add(0,list.get(list.size()-1));
