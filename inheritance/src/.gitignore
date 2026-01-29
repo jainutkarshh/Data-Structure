@@ -1,0 +1,46 @@
+# Executable files
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# Compiled Java
+*.class
+*.jar
+
+# Python compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+dist/
+Debug/
+Release/
+
+# Temporary files
+*.tmp
+*.bak
+tempCodeRunnerFile.*
+
+# Environment files
+.env
+.env.local
